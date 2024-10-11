@@ -1,4 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway);
+
+ main{
+    display: flex;
+ }
+
 body{
     font-family: helvetica, arial, sans-serif;
 	font-size:1em;
@@ -16,10 +21,10 @@ h2{
 }
 
 .container{
-    display: grid;
+    flex-direction: column;
 }
 
-.left-float{
+.left{
     float: left;
 }
 
